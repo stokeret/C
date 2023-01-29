@@ -1,0 +1,18 @@
+/*The assert.h header file of the C Standard Library provides a macro called assert which can be used to verify assumptions
+made by the program and print a diagnostic message if this assumption is false.
+
+The defined macro assert refers to another macro NDEBUG which is not a part of <assert.h>. If NDEBUG is defined as a 
+macro name in the source file, at the point where <assert.h> is included, the assert macro is defined as follows −
+*/
+#define assert(ignore) ((void)0)
+/*
+Library Macros
+
+Following is the only function defined in the header assert.h −
+*/
+Sr.No. 	Function & Description
+
+1 	    void assert(int expression)
+/*
+This is actually a macro and not a function, which can be used to add diagnostics in your C program.
+*/
