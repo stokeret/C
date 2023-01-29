@@ -9,9 +9,9 @@ macro name in the source file, at the point where <assert.h> is included, the as
 Library Macros
 
 Following is the only function defined in the header assert.h −
-*/
-Sr.No. 	Function & Description
 
+Sr.No. 	Function & Description
+*/
 1 	    void assert(int expression)
 /*
 This is actually a macro and not a function, which can be used to add diagnostics in your C program.

@@ -1,0 +1,30 @@
+The stddef.h header defines various variable types and macros. Many of these definitions also appear in other headers.
+Library Variables
+
+Following are the variable types defined in the header stddef.h −
+Sr.No. 	Variable & Description
+1 	
+
+ptrdiff_t
+
+This is the signed integral type and is the result of subtracting two pointers.
+2 	
+
+size_t
+
+This is the unsigned integral type and is the result of the sizeof keyword.
+3 	
+
+wchar_t
+
+This is an integral type of the size of a wide character constant.
+Library Macros
+
+Following are the macros defined in the header stddef.h −
+Sr.No. 	Macro & Description
+1 	NULL
+
+This macro is the value of a null pointer constant.
+2 	offsetof(type, member-designator)
+
+This results in a constant integer of type size_t which is the offset in bytes of a structure member from the beginning of the structure. The member is given by member-designator, and the name of the structure is given in type.
